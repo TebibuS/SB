@@ -37,7 +37,8 @@ The following STRETCH features are implemented:
 
 I have chosen to duplicate the following layout from the Facebook app:
 
-<img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+![photo_2023-03-16_01-31-31](https://user-images.githubusercontent.com/112728544/225801195-8a56e936-92a5-4eae-9084-8fb9f0745267.jpg)
+
 
 ## Video Demo
 
@@ -60,6 +61,8 @@ Here is my entry for the "Create a second layout, this time for an original, per
 It is for an app that you can search anything and it gives you the answer
 
 <img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
+![Screenshot_20230316_213153](https://user-images.githubusercontent.com/112728544/225801329-0b1755b8-af20-454c-84e9-e19fbf747ce3.png)
+
 
 ## Notes
 
