@@ -8,7 +8,7 @@ Time spent: 2 hours spent in total
 
 ## Summary
 
-Search Book is an android app that you can search anything with and gives you an answer
+Search Book is an android app that you can search anything with and gives you an answer!
 
 If I had to describe this project in three (3) emojis, they would be: Heart emoji, fire emoji, animal emoji
 
