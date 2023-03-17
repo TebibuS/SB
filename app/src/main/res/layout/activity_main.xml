@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/owl_black_dark">
+
+
+    <ImageView
+        android:id="@+id/owlLogo"
+        android:layout_width="223dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/owl" />
+
+
+    <TextView
+        android:id="@+id/SearchBookText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Search Book"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/owlLogo"
+
+        app:layout_constraintStart_toStartOf="@+id/owlLogo"
+        app:layout_constraintTop_toBottomOf="@+id/owlLogo" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/owl_black_light"
+        android:ems="10"
+        android:hint="Mobilenumber or email"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/owl_gray_light"
+
+        android:textCursorDrawable="@null"
+        app:layout_constraintEnd_toEndOf="@+id/SearchBookText"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/SearchBookText"
+        app:layout_constraintTop_toBottomOf="@+id/SearchBookText" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/owl_black_light"
+        android:textColor="@color/white"
+        android:textColorHint="@color/owl_gray_light"
+        android:textCursorDrawable="@null"
+
+
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/email"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="@+id/password"
+
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:srcCompat="@drawable/login" />
+
+    <EditText
+        android:id="@+id/Forgotpassword"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/owl_black_light"
+        android:ems="10"
+        android:hint="Forgot Password?"
+        android:inputType="textPassword"
+
+
+        android:textColor="@color/white"
+        android:textColorHint="@color/owl_gray_light"
+        android:textCursorDrawable="@null"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton"
+
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        android:text="or"
+        app:layout_constraintEnd_toEndOf="@+id/Forgotpassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Forgotpassword"
+        app:layout_constraintTop_toBottomOf="@+id/Forgotpassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:text="Create New Account"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
