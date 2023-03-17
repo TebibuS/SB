@@ -60,7 +60,6 @@ Here is my entry for the "Create a second layout, this time for an original, per
 
 It is for an app that you can search anything and it gives you the answer
 
-<img src='http://example.com/link/to/your/image.png' title='Chosen Screenshot' width='' alt='Chosen Screenshot' />
 ![Screenshot_20230316_213153](https://user-images.githubusercontent.com/112728544/225801329-0b1755b8-af20-454c-84e9-e19fbf747ce3.png)
 
 
